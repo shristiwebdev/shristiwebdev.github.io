@@ -1,0 +1,108 @@
+a {
+    text-decoration: none;
+
+}
+
+.head {
+    margin-top: 20px;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#logo {
+    margin-top: 8px;
+    
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-size: 35px;
+}
+
+button {
+    font-size: small;
+    height: 30px;
+    width: 80px;
+    margin-top: 20px;
+    background-color: rgb(136, 38, 228);
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border-radius: 20px;
+}
+
+h1 {
+
+    margin-top: 100px;
+    margin-left: 85px;
+}
+
+h2 {
+    margin-left: 85px;
+
+
+}
+
+p {
+
+    margin-left: 85px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+
+#hire {
+    margin-left: 85px;
+}
+
+#cv {
+
+    width: 120px;
+    margin-left: 30px;
+}
+
+footer {
+
+    margin-top: 100px;
+    margin-left: 85px;
+}
+
+img {
+    width: 30px;
+    height: 30px;
+    margin-left: 30px;
+
+}
+
+.img {
+
+    
+
+    display: flex;
+    flex-direction: row-reverse;
+    
+    justify-content:space-between;
+
+
+
+
+
+
+
+
+
+
+}
+
+.img img {
+
+    width: 300px;
+    height: auto;
+    margin-top: 100px;
+    margin-right: 80px;
+    border-radius: 50%;
+    transition:transform 0.3 ease;
+
+}
+.img img:hover{
+    transform: scale(1.1);
+}
